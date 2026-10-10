@@ -29,6 +29,12 @@
         </div>
     </nav>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
+        <div>
+            <a class="navbar-brand fw-bold" href="{{ route('flowers.index') }}">Lihat data Bunga
+        </div>
+    </nav>
+
     <div class="container">
         @yield('content')
     </div>

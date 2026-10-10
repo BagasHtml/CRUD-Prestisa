@@ -57,6 +57,7 @@ class FlowerTransactionController extends Controller
 
     public function show(FlowerTransaction $transaction)
     {
+        
         return view('transactions.show', compact('transaction'));
     }
 
